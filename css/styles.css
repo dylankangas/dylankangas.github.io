@@ -80,8 +80,9 @@
 .sidenav a:hover {
   color: #f1f1f1;
   position: relative;
-  transition: 0.3s;
-  left: -10px;
+  transition: 0.3s ease;
+  transform: translate(-10px, 0px);
+  /*left: -10px;*/
 }
 
 .dropbtn {
