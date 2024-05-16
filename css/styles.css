@@ -20,7 +20,7 @@ div.polaroid {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   position: relative;
-  transform: translateY(25%);
+  transform: translateY(35%);
 }
 
 div.container {
@@ -44,6 +44,9 @@ div.container {
 .columnR {
   flex: 60%;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navColumnL {
@@ -70,6 +73,13 @@ div.container {
   width: 100%;
 }
 
+.nav li {
+  display: inline-block;
+}
+.nav ul {
+  text-align: right;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -89,7 +99,7 @@ footer{
   position: fixed;
   top: 0;
   width: 100%;
-  height: 10%
+  height: 10%;
 }
 
 
@@ -104,6 +114,16 @@ footer{
 
 
 .navbar a:hover {
+  -webkit-transition:all .5s;
   background: #ddd;
   color: black;
+}
+
+
+.resumeTitle {
+  flex: 60%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
