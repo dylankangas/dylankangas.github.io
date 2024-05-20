@@ -92,6 +92,7 @@ footer{
   -webkit-transition:all .5s;
   background: #ddd;
   color: black;
+  border-radius: 32px;
 }
 
 .columnL {
