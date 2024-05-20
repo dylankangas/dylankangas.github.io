@@ -20,7 +20,7 @@ div.polaroid {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   position: relative;
-  transform: translateY(35%);
+  margin-bottom: 2%;
 }
 
 div.container {
@@ -37,36 +37,7 @@ div.container {
 }
 
 
-.columnL {
-  flex: 40%;
-  padding: 10px;
-  background-color:white;
-}
-.columnR {
-  flex: 60%;
-  padding: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:white;
-}
 
-.navColumnL {
-  flex: 50%;
-  padding: 10px;
-  float: left;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  
-}
-.navColumnR {
-  flex: 50%;
-  padding: 10px;
-  float: right;
-  text-align: right;
-}
 
 .nav {
   position: absolute;
@@ -123,11 +94,65 @@ footer{
   color: black;
 }
 
-
-.resumeTitle {
-  flex: 60%;
+.columnL {
+  flex: 40%;
   padding: 10px;
+  background-color:white;
+}
+.columnR {
+  flex: 60%;
+  padding: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color:white;
+}
+
+.navColumnL {
+  flex: 50%;
+  padding: 10px;
+  float: left;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+.navColumnR {
+  flex: 50%;
+  padding: 10px;
+  float: right;
+  text-align: right;
+}
+
+.resumeTitle {
+  width: 50%;
+  margin-top: 7.55%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+}
+
+.resumeItem {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+}
+
+.resumeColumnL {
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color:white;
+}
+.resumeColumnR {
+  flex: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color:white;
 }
