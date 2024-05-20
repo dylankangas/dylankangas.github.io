@@ -102,7 +102,6 @@ footer{
 .columnR {
   flex: 60%;
   padding: 5%;
-  display: flex;
   justify-content: center;
   align-items: center;
   background-color:white;
@@ -123,6 +122,32 @@ footer{
   padding: 10px;
   float: right;
   text-align: right;
+}
+
+.resumeColumnL {
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.resumeColumnR {
+  flex: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.halfColumnL {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.halfColumnR {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .aboutTitle {
@@ -151,18 +176,7 @@ footer{
   position: relative;
 }
 
-.resumeColumnL {
-  flex: 50%;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-.resumeColumnR {
-  flex: 50%;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
+
 
 .button {
   background-color: blue;
@@ -181,4 +195,19 @@ footer{
 
 .downloadButton {
   background-color: blue;
+}
+
+.navButton {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  border-radius: 32px;
 }
