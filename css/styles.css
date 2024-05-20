@@ -125,13 +125,22 @@ footer{
   text-align: right;
 }
 
+.aboutTitle {
+  padding-top: 7.5%;
+}
+
 .resumeTitle {
   width: 50%;
-  margin-top: 7.55%;
+  padding-top: 7.5%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   position: relative;
+}
+
+.resumeBack {
+  background: rgb(142,142,255);
+  background: linear-gradient(270deg, rgba(142,142,255,1) 0%, rgba(200,200,255,1) 100%);
 }
 
 .resumeItem {
@@ -147,12 +156,29 @@ footer{
   display: flex;
   justify-content: left;
   align-items: center;
-  background-color:white;
 }
 .resumeColumnR {
   flex: 50%;
   display: flex;
   justify-content: right;
   align-items: center;
-  background-color:white;
+}
+
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  border-radius: 32px;
+}
+
+.downloadButton {
+  background-color: blue;
 }
