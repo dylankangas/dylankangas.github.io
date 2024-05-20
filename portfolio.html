@@ -19,7 +19,7 @@
             <div class="nav">
                 <div class="row">
                     <div class="navColumnL">
-                        <span><b class="name">Dylan Kangas</b> <b class="title">/ Electrical & Computer Engineer</b></span>
+                        <span><a href="index.html" style="background: white;"><b class="name">Dylan Kangas</b> <b class="title">/ Electrical & Computer Engineer</b></a></span>
                     </div>
                     <div class="navColumnR">
                         <ul>
@@ -42,20 +42,42 @@
                     <div class="resumeColumnR">
                     </div>
                 </div>
-                <p>something about my projects</p>
+                <p>I am very passionate about hardware development
+                    kept myself busy with personal projects during my time in college.</p>
             </div>
                 
             <div>
                 <div class="polaroid">
                     <div class="row">
                         <div class="columnR">
+                            <h2>Autonomous Robotics Platform</h2>
+                            <hr style="width:30%; height:2px;border-width:0;color:blue;background-color:blue">
+                            <h3 style="font-weight: normal">Transitioned to GVR bot – US Army Combat Capabilities Development Command 
+                                devcom, modular platform, Explosive disposal robot,
+                                drop in modules, such as cameras, robotic arms, etc. We didn’t use them
+                                ROS
+                                built in jetson – old linux
+                                Controlled with a PS4 controller
+                                was custom built for our application uses 3d lidar 3d printed brackets for attaching – modular mounting plate
+
+                            </h3>
+                        </div>
+                        <div class="columnL" style="padding: 0">
+                            <img src="assets/img/portfolio/gvr.jpg" alt="" style="width:100%; height:100%; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <div class="row">
+                        <div class="columnR">
                             <h2>Magnetic Sand Plotter</h2>
                             <hr style="width:30%; height:2px;border-width:0;color:blue;background-color:blue">
-                            <h3 style="font-weight: normal">Responsible for creating and training neural networks to
-                                generate and interpret natural language for summarization
-                                topics. Training models using human feedback, user interface
-                                construction, coauthoring research publications, programming in
-                                Python, HTML, JS, and implementing the Zoom API.</h3>
+                            <h3 style="font-weight: normal; text-align: justify;">Using a magnetic polar gantry this device drags a ball bearing through sand to plot beautiful patterns.
+                                                            It features an ESP32 to receive commands wirelessly and can plot vector images.
+                                                            This project was the 1st place winner of the 2021 <a href="https://www.involvement.mtu.edu/event/3170525">MasterpiECE Mania</a> design contest at Michigan Tech.
+                                                            It was selected for presentation at <a href="https://opensauce.com/">Open Sauce</a> 2024 in San Francisco. 
+                            </h3>
                         </div>
                         <div class="columnL" style="padding: 0">
                             <img src="assets/img/portfolio/sandtable.jpg" alt="" style="width:100%; height:100%; object-fit: cover;">
@@ -66,16 +88,35 @@
                 <div class="polaroid">
                     <div class="row">
                         <div class="columnR">
-                            <h2>Infinity Mirror</h2>
+                            <h2>6DOF Virtual Reality IR Tracker</h2>
                             <hr style="width:30%; height:2px;border-width:0;color:blue;background-color:blue">
-                            <h3 style="font-weight: normal">Responsible for creating and training neural networks to
-                                generate and interpret natural language for summarization
-                                topics. Training models using human feedback, user interface
-                                construction, coauthoring research publications, programming in
-                                Python, HTML, JS, and implementing the Zoom API.</h3>
+                            <h3 style="font-weight: normal">This device is attempting to emulate and abilities of the 
+                                <a href="https://www.vive.com/us/accessory/tracker3/">HTC Vive Tracker 3.0</a> enabling 6DOF positioning using the SteamVR Tracking System. 
+                            I created custom PCB sensors utilizing the <a href="https://www.digikey.com/htmldatasheets/production/5835669/0/0/1/ts4231.pdf">TS4231</a> and an IR photodiode.
+                            An array of these sensors connected to an ESP32 to demodulate the signal and determine position and rotation of the device in 3D space.
+                            </h3>
+                                
                         </div>
                         <div class="columnL" style="padding: 0">
-                            <img src="assets/img/portfolio/mirror.png" alt="" style="width:100%; height:100%; object-fit: cover;">
+                            <img src="assets/img/portfolio/VR/VR.jpg" alt="" style="width:100%; height:100%; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <div class="row">
+                        <div class="columnR">
+                            <h2>Portfolio Website</h2>
+                            <hr style="width:30%; height:2px;border-width:0;color:blue;background-color:blue">
+                            <h3 style="font-weight: normal">This device is attempting to emulate and abilities of the 
+                                <a href="https://www.vive.com/us/accessory/tracker3/">HTC Vive Tracker 3.0</a> enabling 6DOF positioning using the SteamVR Tracking System. 
+                            I created custom PCB sensors utilizing the <a href="https://www.digikey.com/htmldatasheets/production/5835669/0/0/1/ts4231.pdf">TS4231</a> and an IR photodiode.
+                            An array of these sensors connected to an ESP32 to demodulate the signal and determine position and rotation of the device in 3D space.
+                            </h3>
+                                
+                        </div>
+                        <div class="columnL" style="padding: 0">
+                            <img src="assets/img/portfolio/VR/VR.jpg" alt="" style="width:100%; height:100%; object-fit: cover;">
                         </div>
                     </div>
                 </div>
@@ -85,14 +126,13 @@
                         <div class="columnR">
                             <h2>Infinity Mirror</h2>
                             <hr style="width:30%; height:2px;border-width:0;color:blue;background-color:blue">
-                            <h3 style="font-weight: normal">Responsible for creating and training neural networks to
-                                generate and interpret natural language for summarization
-                                topics. Training models using human feedback, user interface
-                                construction, coauthoring research publications, programming in
-                                Python, HTML, JS, and implementing the Zoom API.</h3>
+                            <h3 style="font-weight: normal">This device utilizes two parallel mirrors to create the infinity effect using individually addressable LEDs.
+                                It features capacitive touch buttons for selecting brightness, color, and modes.
+                                This project was the 2nd place winner of the 2020 <a href="https://www.involvement.mtu.edu/event/3170525">MasterpiECE Mania</a> design contest at Michigan Tech.
+                            </h3>
                         </div>
                         <div class="columnL" style="padding: 0">
-                            <img src="assets/img/portfolio/VR/VR.jpg" alt="" style="width:100%; height:100%; object-fit: cover;">
+                            <img src="assets/img/portfolio/mirror.png" alt="" style="width:100%; height:100%; object-fit: cover;">
                         </div>
                     </div>
                 </div>
