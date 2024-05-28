@@ -6,13 +6,13 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Dylan J. Kangas</title>
-        <link rel="icon" type="image/x-icon" href="assets/DK.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/icons/DK.ico" />
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="navbar">
@@ -69,17 +69,28 @@
                 <div class="polaroid">
                     <div class="row">
                         <div class="columnR">
-                            <h2>PrimeMind: Neual Network Classification of Amazon</h2>
+                            <h2>PrimeMind: Neual Network Classification of Amazon Prime</h2>
                             <hr style="width:30%; height:2px;border-width:0;color:blue;background-color:blue">
-                            <h3 style="font-weight: normal">My master's research required development of a reliable robotics platform for data collection and processing.
-                                We built upon the modular platform developed by the US Army Combat Capabilities Development Command (DEVCOM), called the GVR bot. 
-                                Using custom 3D printed fixtures, I integrated a VLP-16 3D LIDAR, an IMU, an NVIDIA Jetson, and networking equipment. 
-                                The project required me to create a custom power distribution system and write software to drive it with a PS4 controller.
-                                You can read more about my research with ROS on my <a href="resume.html">resume</a>. 
+                            <h3 style="font-weight: normal">In this project, we utilize BERT to
+                                classify Amazon products into 112 unique sub-categories and 20 main 
+                                categories based on textual descriptions and titles. 
+                                
+                                The dataset selected was the 2023 Amazon Product Sales Dataset, a
+                                comprehensive collection of over 500,000 product listing with details such
+                                as names, categories, descriptions, brands, and prices.
+
+                                BERT-base achieved an accuracy of 89.5% after only one one epoch. 
+                                When we extended the training of BERT-base to 15 epochs, we did not
+                                see a significant improvement of more than 1%.
+
+                                Most of the incorrect classifications involved placing a product into an adjacent category. This suggests
+                                that the model struggles with distinguishing related sub-categories where
+                                product titles share common keywords and concepts.
                             </h3>
+                            <a href="https://github.com/dylankangas/primeMind" class="fa fa-github" style="font-size:36px; color: black"></a>
                         </div>
                         <div class="columnL" style="padding: 0">
-                            <img src="assets/img/portfolio/gvr.jpg" alt="" style="width:100%; height:100%; object-fit: cover;">
+                            <img src="assets/img/portfolio/primeMind.png" alt="" style="width:100%; height:100%; object-fit: cover;">
                         </div>
                     </div>
                 </div>
