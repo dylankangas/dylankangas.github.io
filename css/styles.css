@@ -274,3 +274,53 @@ color: black;
   background: white;
   color: black;
 }
+
+
+/* This is for desktop users */
+@media screen and (min-width: 1400px) {
+  .navbar {display: initial;}
+  .sidenav {display: initial;}
+}
+
+/* This is for small screens */
+@media only screen and (max-width: 1400px) {
+  .navbar {display: initial;}
+
+  .main-headings {
+    width: 100%;
+    margin: auto;
+  }
+
+  div.polaroid {
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    position: relative;
+    margin-bottom: 2%;
+  }
+
+}
+
+
+/* This is for mobile users */
+@media only screen and (max-width: 800px) {
+  .navbar {display: none;}
+
+  .columnR h3 {
+    text-align: left;
+  }
+
+  div.polaroid {
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    position: relative;
+    margin-bottom: 2%;
+  }
+
+  p.myEmail {
+    display: none;
+  }
+}
