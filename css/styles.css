@@ -320,10 +320,21 @@ color: black;
 }
 
 
+/* Hide nav name */
+@media only screen and (max-width: 800px) {
+  .navColumnL {
+    display: none;
+  }
+
+  .navColumnR {
+    justify-content: center;
+  }
+}
+
+
+
 /* This is for very small screens */
 @media only screen and (max-width: 600px) {
-  .navbar {display: none;}
-
   .columnR h3 {
     text-align: left;
   }
@@ -344,17 +355,23 @@ color: black;
   p.myEmail {
     display: none;
   }
+
+  .navColumnL {
+    display: none;
+  }
+
+  .navColumnR {
+    justify-content: center;
+  }
 }
 
 
 /* Mobile Users */
 @media only screen and (hover: none) and (pointer: coarse){
-  .navbar {display: none;}
-
   .columnR h3 {
     text-align: left;
   }
-
+  
   .porfolioColumnL h3 {
     text-align: left;
   }
@@ -370,5 +387,13 @@ color: black;
 
   p.myEmail {
     display: none;
-  }  
+  }
+
+  .navColumnL {
+    display: none;
+  }
+
+  .navColumnR {
+    justify-content: center;
+  }
 }
