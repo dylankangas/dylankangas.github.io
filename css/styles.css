@@ -168,6 +168,23 @@ footer{
   align-items: center;
 }
 
+.portfolioColumnR {
+  flex: 40%;
+  padding: 10px;
+  background-color:white;
+}
+.portfolioColumnL {
+  flex: 60%;
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+}
+
+.portfolioColumnL h3 {
+  text-align: justify;
+}
+
 .aboutTitle {
   padding-top: 7.5%;
 }
@@ -304,10 +321,14 @@ color: black;
 
 
 /* This is for very small screens */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .navbar {display: none;}
 
   .columnR h3 {
+    text-align: left;
+  }
+  
+  .porfolioColumnL h3 {
     text-align: left;
   }
 
@@ -326,10 +347,15 @@ color: black;
 }
 
 
+/* Mobile Users */
 @media only screen and (hover: none) and (pointer: coarse){
   .navbar {display: none;}
 
   .columnR h3 {
+    text-align: left;
+  }
+
+  .porfolioColumnL h3 {
     text-align: left;
   }
 
