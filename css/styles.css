@@ -303,7 +303,7 @@ color: black;
 }
 
 
-/* This is for mobile users */
+/* This is for very small screens */
 @media only screen and (max-width: 800px) {
   .navbar {display: none;}
 
@@ -323,4 +323,26 @@ color: black;
   p.myEmail {
     display: none;
   }
+}
+
+
+@media only screen and (hover: none) and (pointer: coarse){
+  .navbar {display: none;}
+
+  .columnR h3 {
+    text-align: left;
+  }
+
+  div.polaroid {
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    position: relative;
+    margin-bottom: 2%;
+  }
+
+  p.myEmail {
+    display: none;
+  }  
 }
