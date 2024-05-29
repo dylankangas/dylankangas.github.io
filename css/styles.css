@@ -335,14 +335,6 @@ color: black;
 
 /* This is for very small screens */
 @media only screen and (max-width: 600px) {
-  .columnR h3 {
-    text-align: left;
-  }
-  
-  .porfolioColumnL h3 {
-    text-align: left;
-  }
-
   div.polaroid {
     width: 90%;
     margin: auto;
@@ -352,30 +344,30 @@ color: black;
     margin-bottom: 2%;
   }
 
-  p.myEmail {
-    display: none;
+  .row {
+    content: "";
+    display: table;
+    clear: both;
   }
 
-  .navColumnL {
-    display: none;
-  }
+  .portfolioColumnR h3 { text-align: left; }
+  
+  .porfolioColumnL h3 { text-align: left; }
 
-  .navColumnR {
-    justify-content: center;
-  }
+  .navbar .row { display: flex; }
+
+  .navColumnL { display: none; }
+
+  .navColumnR { justify-content: center; }
+
+  .portfolioColumnR img { display: block; } /* removes white space under img */
+
+  p.myEmail { display: none; }
 }
 
 
 /* Mobile Users */
 @media only screen and (hover: none) and (pointer: coarse){
-  .columnR h3 {
-    text-align: left;
-  }
-  
-  .porfolioColumnL h3 {
-    text-align: left;
-  }
-
   div.polaroid {
     width: 90%;
     margin: auto;
@@ -385,15 +377,23 @@ color: black;
     margin-bottom: 2%;
   }
 
-  p.myEmail {
-    display: none;
+  .row {
+    content: "";
+    display: table;
+    clear: both;
   }
 
-  .navColumnL {
-    display: none;
-  }
+  .portfolioColumnR h3 { text-align: left; }
+  
+  .porfolioColumnL h3 { text-align: left; }
 
-  .navColumnR {
-    justify-content: center;
-  }
+  .navbar .row { display: flex; }
+
+  .navColumnL { display: none; }
+
+  .navColumnR { justify-content: center; }
+
+  .portfolioColumnR img { display: block; } /* removes white space under img */
+
+  p.myEmail { display: none; }
 }
