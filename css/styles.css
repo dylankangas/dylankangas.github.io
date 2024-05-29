@@ -328,6 +328,25 @@ color: black;
   color: black;
 }
 
+.titleLine {
+  width:50%;
+  height:2px;
+  border-width:0;
+  color:blue;
+  background-color:blue;
+} 
+
+.resumeSeperator {
+  width:100%; 
+  height:1px;
+  border-width:0;
+  color:black;
+  background-color:black;
+  display: none;
+}
+
+
+
 
 /* This is for desktop users */
 @media screen and (min-width: 1400px) {
@@ -386,6 +405,8 @@ color: black;
     clear: both;
   }
 
+  .resumeSeperator { display: block; }
+
   .portfolioColumnR h3 { text-align: left; }
   
   .porfolioColumnL h3 { text-align: left; }
@@ -420,6 +441,8 @@ color: black;
     clear: both;
   }
 
+  .resumeSeperator { display: block; }
+
   .portfolioColumnR h3 { text-align: left; }
   
   .porfolioColumnL h3 { text-align: left; }
@@ -434,3 +457,4 @@ color: black;
 
   p.myEmail { display: none; }
 }
+
