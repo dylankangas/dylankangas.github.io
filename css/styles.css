@@ -36,7 +36,9 @@ div.container {
   display: flex;
 }
 
-
+.footRow {
+  display: flex;
+}
 
 
 .nav {
@@ -149,6 +151,19 @@ footer{
   align-items: center;
 }
 .resumeColumnR {
+  flex: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.footColumnL {
+  flex: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.footColumnR {
   flex: 50%;
   display: flex;
   justify-content: right;
@@ -355,6 +370,7 @@ color: black;
   .porfolioColumnL h3 { text-align: left; }
 
   .navbar .row { display: flex; }
+  .footer .row { display: flex; }
 
   .navColumnL { display: none; }
 
