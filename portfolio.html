@@ -117,10 +117,11 @@
                         <div class="portfolioColumnL">
                             <h2>6DOF Virtual Reality IR Tracker</h2>
                             <hr class="titleLine">
-                            <h3 style="font-weight: normal">This device is attempting to emulate and abilities of the 
+                            <h3 style="font-weight: normal">This device was designed emulate and abilities of the 
                                 <a href="https://www.vive.com/us/accessory/tracker3/">HTC Vive Tracker 3.0</a> enabling 6DOF positioning using the SteamVR Tracking System. 
                             I created custom PCB sensors utilizing the <a href="https://www.digikey.com/htmldatasheets/production/5835669/0/0/1/ts4231.pdf">TS4231</a> and an IR photodiode.
-                            An array of these sensors connected to an ESP32 to demodulate the signal and determine position and rotation of the device in 3D space.
+                            An array of these sensors connected to an ESP32 along with an IMU to determine position and rotation of the device in 3D space.
+                            The device demodulates the 6-12MHz IR signal and multiplexes the 5+ input channels. The pose of the device is wirelessly transmitted to a PC using Bluetooth.
                             </h3>
                                 
                         </div>
