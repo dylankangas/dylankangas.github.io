@@ -137,6 +137,11 @@ footer{
   justify-content: center;
   align-items: center;
   background-color:white;
+  ul {
+    list-style-type: disc; /* Ensure bullets are displayed */
+    padding-left: 20px;
+    text-align: left;
+  }
 }
 
 .columnR h3 {
