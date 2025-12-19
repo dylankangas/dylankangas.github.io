@@ -215,6 +215,7 @@ footer{
 .portfolioColumnR {
   flex: 40%;
   padding: 10px;
+  align-items: center;
   background-color:white;
 }
 .portfolioColumnL {
@@ -337,7 +338,7 @@ color: black;
 }
 
 .titleLine {
-  width:50%;
+  width:75%;
   height:2px;
   border-width:0;
   color:blue;
